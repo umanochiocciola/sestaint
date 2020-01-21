@@ -1,59 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>umanochiocciola</title>
+<title>SESTA INTERNAZIONALE</title>
 <style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+#pageHeader {
+  grid-area: header;
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  }
+header, article, footer {
+  padding: 20px;
+  background: red;
+}
+nav {
+  padding: 20px;
+  background: gold;
+}
+div {
+  padding: 20px;
+  background: gold;
+}
 body {
-background-color: lime;
+background-color: gold;
 }
-h1 {
-color: red;
-}
-h6 {
-color: white
-}
-h4 {
-color: aqua
-}
-#piccino {
-font-size: 0.7em;
+a {
+  color: gold;
 }
 </style>
-</head>
 <body>
-<h1>Umanochiocciola videos&games</h1>
-<hr>
-<p><strong>umanochiocciola ha finalmente un sito tutto suo!</strong><br>evviva!<br><p>ma perchè cambiamo sito?</p>
-<ul>
-<li>a lollo piace l'HTML e voleva crearsi da solo il sito</li>
-<li>non dobbiamo stare alle norme e non siamo limitati da blogspot</li>
-<li>ci piace renderci la vita difficile</li>
-</ul>
-<hr>
-<p>--vai a:---</p>
-<form action="/unews.html">
-<input type="submit" value="UMANO NEWS" >
-</form>
-<form action="/story.html">
-<input type="submit" value="STORY & START" >
-</form>
-<hr>
-<form action="https://uman0chiocciola.blogspot.com">
-<input type="submit" value="schifo"><--torna al vecchio sito gne gne
-</form>
-<form action="https://www.youtube.com/channel/UCwQ-sguhBT1x8RjUboJ2Y-Q?view_as=visitor">
-<input type="submit" value="OUR YT CHANNEL"><---iscriviti!
-</form>
-<hr>
-<h4>sito in costruzione!</h4>
-<br>
-<br>
-<br>
-<br>
-<br>
-<input type="button" value="hahahaha sono un tasto (non toccarmi)" onclick="alert('salve'); alert('hai toccato il pulsante...'); alert('ti avevo detto di non farlo!'); alert('cattivo user');">
-<br><h4 style="color:fuchsia;border-width:3px;border-style:dashed;border-color:blue;">il vecchio sito rimarrà online ma inattivo</h4><br><br>
-<hr>
-<h6>hahahahahahahha</h6><input type="button" value="bottone inutile"></imput>
+  <header id="pageHeader" style="color: gold; font-size: 2em"><center>SESTA INTERNAZIONALE<center></header>
+  <article id="mainArticle"><p style="background-color: white">La sesta internazionale vuole essere un movimento di simpatizzanti comunisti con l'obbiettivo di scollegare il concetto di comunismo da Stalin e dalla dittatura, facendolo tornare all'idea originale. Abbiamo un sito web programmato rigorosamente a mano e magliete personalizzate.</p></article>
+  <nav id="mainNav" style="color: red; font-size: 1.2em">La rinascita del comunismo. Il ritorno della sinistra in italia e nel mondo. Il ritorno al concetto originale.</nav>
+  <div id="siteAds"><p style="background-color: white">se sei su mobile </p><br><a href="https://chat.whatsapp.com/BwQw7RqoB8QF2jpDcPlnlW" style="color: red;">ENTRA NEL GRUPPO WHATSAPP</a>
+<br><p style="background-color: white"><strong>Cosa stiamo facendo</strong></p><br><a href="/noinonentriamoinchiesa.html" style="color: red;">NOI NON ENTRIAMO IN CHIESA!</a><br>
+<p style="background-color: white"><strong>Altro</strong></p><br><a href="/giokino.html" style="color: red;">Il videogioco!</a>
+</div>
+  <footer id="pageFooter" style="color: gold; font-size: 1.5em"><center>PROLETARI DI TUTTI I PAESI, UNITEVI!</center></footer>
 </body>
-</html>
